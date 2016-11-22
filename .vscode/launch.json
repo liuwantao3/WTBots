@@ -11,8 +11,8 @@
             "program": "${workspaceRoot}/messages/index.js",
             "cwd": "${workspaceRoot}",
             "env": {
-    "NODE\_ENV": "development"
-}
+                  "NODE_ENV": "development"
+             }
         },
         {
             "type": "node",

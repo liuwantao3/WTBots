@@ -1,6 +1,7 @@
 "use strict";
 var builder = require("botbuilder");
 var botbuilder_azure = require("botbuilder-azure");
+var restify = require('restify');
 
 var useEmulator = (process.env.NODE_ENV == 'development');
 
